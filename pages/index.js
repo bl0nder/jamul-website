@@ -28,8 +28,10 @@ export default function Home() {
   }
 
   return (
+
+    
     <div className='flex grid items-center justify-center h-full'>
-      {/* <Link href="/login" passHref>
+      { <Link href="/catalog" passHref>
         <button 
         className='bg-emerald-500 p-2 rounded-md'
       //   onClick={(e) => {
@@ -39,8 +41,8 @@ export default function Home() {
       //  }}
         >HELLLOOOOOO
         </button>
-      </Link> */}
-
+      </Link> }
+      <h1> Select Jamul branch</h1>
       <select className=''>
         <option> Select an option</option>
         <option value="1">XYZ</option>
