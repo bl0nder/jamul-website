@@ -39,7 +39,18 @@ export default function Home() {
       //     e.stopPropagation();
       //     handleModalOpenerClick(field);
       //  }}
-        >HELLLOOOOOO
+        >Branch
+        </button>
+      </Link> }
+      { <Link href="/admin" passHref>
+        <button 
+        className='bg-emerald-500 p-2 rounded-md'
+      //   onClick={(e) => {
+      //     e.preventDefault();
+      //     e.stopPropagation();
+      //     handleModalOpenerClick(field);
+      //  }}
+        >Admin
         </button>
       </Link> }
       <h1> Select Jamul branch</h1>
