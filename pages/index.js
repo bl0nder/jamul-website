@@ -31,17 +31,7 @@ export default function Home() {
 
     
     <div className='flex grid items-center justify-center h-full'>
-      { <Link href="/catalog" passHref>
-        <button 
-        className='bg-emerald-500 p-2 rounded-md'
-      //   onClick={(e) => {
-      //     e.preventDefault();
-      //     e.stopPropagation();
-      //     handleModalOpenerClick(field);
-      //  }}
-        >Branch
-        </button>
-      </Link> }
+
       { <Link href="/admin" passHref>
         <button 
         className='bg-emerald-500 p-2 rounded-md'
@@ -50,7 +40,18 @@ export default function Home() {
       //     e.stopPropagation();
       //     handleModalOpenerClick(field);
       //  }}
-        >Admin
+        >Admin Login
+        </button>
+      </Link> }
+      { <Link href="/customer" passHref>
+        <button 
+        className='bg-emerald-500 p-2 rounded-md'
+      //   onClick={(e) => {
+      //     e.preventDefault();
+      //     e.stopPropagation();
+      //     handleModalOpenerClick(field);
+      //  }}
+        >Customer Login
         </button>
       </Link> }
       <h1> Select Jamul branch</h1>
